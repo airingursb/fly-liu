@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout id="null" sceneSize="511,762" next="GameOverScene" previous="MainScene" eventSheet="GameSceneEventSheet" version="2.2">
+  <layer index="0" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="1" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="2" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <layer index="3" parallaxX="100" parallaxY="100" layerAlpha="1" layerVisible="true" cacheAsBitmap="false" bgColor="" bgColorAlpha="" layerScaleX="100" layerScaleY="100"/>
+  <item UID="36" plugin="AIAudio" name="英雄开火音效" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="">
+    <item name="name" value="%E8%8B%B1%E9%9B%84%E5%BC%80%E7%81%AB%E9%9F%B3%E6%95%88" valueDataType="string"/>
+    <item name="uiGuid" value="36" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-139.43553183891564" valueDataType="number"/>
+    <item name="y" value="507.2759940666256" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fsound%2Fbullet.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="38" plugin="AIAudio" name="背景音效" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="1" family="">
+    <item name="name" value="%E8%83%8C%E6%99%AF%E9%9F%B3%E6%95%88" valueDataType="string"/>
+    <item name="uiGuid" value="38" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-139.4355318389156" valueDataType="number"/>
+    <item name="y" value="584.4926607332922" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fsound%2Fyoujun.mp3" valueDataType="string"/>
+    <item name="loop" value="100000" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="true" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="40" plugin="AIAudio" name="敌人死亡音效" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="2" family="">
+    <item name="name" value="%E6%95%8C%E4%BA%BA%E6%AD%BB%E4%BA%A1%E9%9F%B3%E6%95%88" valueDataType="string"/>
+    <item name="uiGuid" value="40" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-139.43554596521736" valueDataType="number"/>
+    <item name="y" value="430.05932625256935" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fsound%2Fbigplane_bomb.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="42" plugin="AIAudio" name="英雄死亡音效" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="3" family="">
+    <item name="name" value="%E8%8B%B1%E9%9B%84%E6%AD%BB%E4%BA%A1%E9%9F%B3%E6%95%88" valueDataType="string"/>
+    <item name="uiGuid" value="42" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-139.43553429760738" valueDataType="number"/>
+    <item name="y" value="352.8676548547837" valueDataType="number"/>
+    <item name="width" value="30" valueDataType="number"/>
+    <item name="height" value="30" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fsound%2Fbigplane_bomb.mp3" valueDataType="string"/>
+    <item name="loop" value="1" valueDataType="number"/>
+    <item name="volume" value="1" valueDataType="number"/>
+    <item name="playOnStart" value="false" valueDataType="boolean"/>
+    <item name="layer" value="0" valueDataType="number"/>
+  </item>
+  <item UID="18" plugin="AISprite" name="滚动背景" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="4" family="displayobject">
+    <item name="name" value="%E6%BB%9A%E5%8A%A8%E8%83%8C%E6%99%AF" valueDataType="string"/>
+    <item name="uiGuid" value="18" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="0" valueDataType="number"/>
+    <item name="y" value="0" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0" valueDataType="number"/>
+    <item name="width" value="512" valueDataType="number"/>
+    <item name="height" value="768" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fbg.jpg" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C768.00%2C512.00%7C768.00%2C512.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C768.00%2C512.00%7C768.00%2C512.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="0" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="ScrollBehaivor" name="滚屏行为">
+        <item valueDataType="number" value="1" name="active"/>
+        <item valueDataType="string" value="%22scrollDown%22" name="scrollDirectionType"/>
+        <item valueDataType="number" value="180" name="speed"/>
+      </item>
+    </item>
+  </item>
+  <item UID="34" plugin="AISprite" name="BOSS子弹" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
+    <item name="name" value="BOSS%E5%AD%90%E5%BC%B9" valueDataType="string"/>
+    <item name="uiGuid" value="34" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-124.39552193086956" valueDataType="number"/>
+    <item name="y" value="289.3859652732761" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="29" valueDataType="number"/>
+    <item name="height" value="43" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2FbossBullet.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn15.00%7C5.00%2C8.85%7C35.00%2C15.05%7C40.55%2C21.05%7C34.95" sourceValue="0%2Fn15.00%7C5.00%2C8.85%7C35.00%2C15.05%7C40.55%2C21.05%7C34.95" valueDataType="string"/>
+    <item name="layer" value="1" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BulletBehaivor" name="子弹行为">
+        <item valueDataType="number" value="400" name="speed"/>
+        <item valueDataType="number" value="0" name="acceleration"/>
+        <item valueDataType="number" value="0" name="gravity"/>
+        <item valueDataType="number" value="90" name="angle"/>
+        <item valueDataType="number" value="0" name="bounceOffSolids"/>
+        <item valueDataType="number" value="1" name="solidChangedAngle"/>
+      </item>
+      <item type="behavior" behaviorType="DestoryOutsideLayoutBehaivor" name="出界销毁">
+        <item valueDataType="number" value="1" name="type"/>
+      </item>
+    </item>
+  </item>
+  <item UID="30" plugin="AISprite" name="敌人子弹" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="1" family="displayobject">
+    <item name="name" value="%E6%95%8C%E4%BA%BA%E5%AD%90%E5%BC%B9" valueDataType="string"/>
+    <item name="uiGuid" value="30" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-124.39552193086952" valueDataType="number"/>
+    <item name="y" value="178.4946301955228" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="28" valueDataType="number"/>
+    <item name="height" value="29" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2FenemyBullet.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="1%2Fn14%7C14.5%7C8.75" sourceValue="1%2Fn14%7C14.5%7C8.75" valueDataType="string"/>
+    <item name="layer" value="1" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BulletBehaivor" name="子弹行为">
+        <item valueDataType="number" value="400" name="speed"/>
+        <item valueDataType="number" value="0" name="acceleration"/>
+        <item valueDataType="number" value="0" name="gravity"/>
+        <item valueDataType="number" value="90" name="angle"/>
+        <item valueDataType="number" value="0" name="bounceOffSolids"/>
+        <item valueDataType="number" value="1" name="solidChangedAngle"/>
+      </item>
+      <item type="behavior" behaviorType="DestoryOutsideLayoutBehaivor" name="出界销毁">
+        <item valueDataType="number" value="1" name="type"/>
+      </item>
+    </item>
+  </item>
+  <item UID="24" plugin="AISprite" name="英雄子弹" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="2" family="displayobject">
+    <item name="name" value="%E8%8B%B1%E9%9B%84%E5%AD%90%E5%BC%B9" valueDataType="string"/>
+    <item name="uiGuid" value="24" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-123.89552193086956" valueDataType="number"/>
+    <item name="y" value="728.4446301955228" valueDataType="number"/>
+    <item name="anchorX" value="0.5172413793103449" valueDataType="number"/>
+    <item name="anchorY" value="0.5106382978723404" valueDataType="number"/>
+    <item name="width" value="29" valueDataType="number"/>
+    <item name="height" value="47" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2FaircraftBullet.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="1%2Fn14.516278565289843%7C14.693296178197023%7C9.568315088757895" sourceValue="1%2Fn14.516278565289843%7C14.693296178197023%7C9.568315088757895" valueDataType="string"/>
+    <item name="layer" value="1" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BulletBehaivor" name="子弹">
+        <item valueDataType="number" value="600" name="speed"/>
+        <item valueDataType="number" value="0" name="acceleration"/>
+        <item valueDataType="number" value="0" name="gravity"/>
+        <item valueDataType="number" value="270" name="angle"/>
+        <item valueDataType="number" value="0" name="bounceOffSolids"/>
+        <item valueDataType="number" value="1" name="solidChangedAngle"/>
+      </item>
+      <item type="behavior" behaviorType="DestoryOutsideLayoutBehaivor" name="出界销毁">
+        <item valueDataType="number" value="1" name="type"/>
+      </item>
+    </item>
+  </item>
+  <item UID="71" plugin="AISprite" name="血" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
+    <item name="name" value="%E8%A1%80" valueDataType="string"/>
+    <item name="uiGuid" value="71" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-124.44552193086956" valueDataType="number"/>
+    <item name="y" value="231.9946301955228" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="45" valueDataType="number"/>
+    <item name="height" value="41" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fbuff_blood.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn1.15%7C17.75%2C23.00%7C38.00%2C44.20%7C15.60%2C22.75%7C3.20" sourceValue="0%2Fn1.15%7C17.75%2C23.00%7C38.00%2C44.20%7C15.60%2C22.75%7C3.20" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BulletBehaivor" name="子弹行为">
+        <item valueDataType="number" value="300" name="speed"/>
+        <item valueDataType="number" value="0" name="acceleration"/>
+        <item valueDataType="number" value="0" name="gravity"/>
+        <item valueDataType="number" value="90" name="angle"/>
+        <item valueDataType="number" value="0" name="bounceOffSolids"/>
+        <item valueDataType="number" value="1" name="solidChangedAngle"/>
+      </item>
+      <item type="behavior" behaviorType="DestoryOutsideLayoutBehaivor" name="出界销毁">
+        <item valueDataType="number" value="1" name="type"/>
+      </item>
+    </item>
+  </item>
+  <item UID="32" plugin="AISprite" name="BOSS" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="1" family="displayobject">
+    <item name="name" value="BOSS" valueDataType="string"/>
+    <item name="uiGuid" value="32" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="249.5" valueDataType="number"/>
+    <item name="y" value="-142" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="221" valueDataType="number"/>
+    <item name="height" value="137" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fboss.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C137.00%2C221.00%7C137.00%2C221.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C137.00%2C221.00%7C137.00%2C221.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+  </item>
+  <item UID="28" plugin="AISprite" name="敌人" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="2" family="displayobject">
+    <item name="name" value="%E6%95%8C%E4%BA%BA" valueDataType="string"/>
+    <item name="uiGuid" value="28" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="-124.44552193086956" valueDataType="number"/>
+    <item name="y" value="78.61854983909005" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="82" valueDataType="number"/>
+    <item name="height" value="79.24783928713441" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2FF442C1EC-1465-4651-B395-09A5A8646F8F.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn7.45%7C44.89%2C40.45%7C73.27%2C74.15%7C45.06%2C74.50%7C25.43%2C40.50%7C14.49%2C7.40%7C23.72" sourceValue="0%2Fn7.45%7C44.89%2C40.45%7C73.27%2C74.15%7C45.06%2C74.50%7C25.43%2C40.50%7C14.49%2C7.40%7C23.72" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BulletBehaivor" name="子弹行为">
+        <item valueDataType="number" value="100" name="speed"/>
+        <item valueDataType="number" value="0" name="acceleration"/>
+        <item valueDataType="number" value="0" name="gravity"/>
+        <item valueDataType="number" value="90" name="angle"/>
+        <item valueDataType="number" value="0" name="bounceOffSolids"/>
+        <item valueDataType="number" value="1" name="solidChangedAngle"/>
+      </item>
+      <item type="behavior" behaviorType="DestoryOutsideLayoutBehaivor" name="出界销毁">
+        <item valueDataType="number" value="1" name="type"/>
+      </item>
+    </item>
+  </item>
+  <item UID="22" plugin="AISprite" name="hero" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="3" family="displayobject">
+    <item name="name" value="hero" valueDataType="string"/>
+    <item name="uiGuid" value="22" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="256" valueDataType="number"/>
+    <item name="y" value="655.3073970244249" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="80" valueDataType="number"/>
+    <item name="height" value="80.61479404884972" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fpptlogo.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="true" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn5.86%7C67.72%2C74.14%7C68.90%2C73.01%7C48.53%2C63.35%7C33.75%2C39.76%7C4.46%2C16.65%7C32.41%2C5.21%7C50.20" sourceValue="0%2Fn5.86%7C67.72%2C74.14%7C68.90%2C73.01%7C48.53%2C63.35%7C33.75%2C39.76%7C4.46%2C16.65%7C32.41%2C5.21%7C50.20" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="BoundsOfRectBehaivor" name="边界限制">
+        <item valueDataType="number" value="0" name="boundType"/>
+        <item valueDataType="number" value="0" name="x"/>
+        <item valueDataType="number" value="0" name="y"/>
+        <item valueDataType="number" value="511" name="width"/>
+        <item valueDataType="number" value="762" name="height"/>
+      </item>
+    </item>
+  </item>
+  <item UID="84" plugin="AIScale9GridBitmap" name="AISprite83" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="4" family="displayobject">
+    <item name="name" value="AISprite83" valueDataType="string"/>
+    <item name="uiGuid" value="84" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="250" valueDataType="number"/>
+    <item name="y" value="-212.00201032514815" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="202" valueDataType="number"/>
+    <item name="height" value="12" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fboss_blood2.png" valueDataType="string"/>
+    <item name="scale9Grid" value="1%2C1%2C5%2C5" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C12.00%2C202.00%7C12.00%2C202.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C12.00%2C202.00%7C12.00%2C202.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="PinBehavior" name="别针"/>
+    </item>
+  </item>
+  <item UID="87" plugin="AISprite" name="AISprite86" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="5" family="displayobject">
+    <item name="name" value="AISprite86" valueDataType="string"/>
+    <item name="uiGuid" value="87" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="150" valueDataType="number"/>
+    <item name="y" value="-212.00201032514815" valueDataType="number"/>
+    <item name="anchorX" value="0" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="200" valueDataType="number"/>
+    <item name="height" value="10" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fboss_blood1.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C10.00%2C200.00%7C10.00%2C200.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C10.00%2C200.00%7C10.00%2C200.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="2" valueDataType="number"/>
+    <item name="behaviors">
+      <item type="behavior" behaviorType="PinBehavior" name="别针"/>
+    </item>
+  </item>
+  <item UID="81" plugin="AISprite" name="AISprite80" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="0" family="displayobject">
+    <item name="name" value="AISprite80" valueDataType="string"/>
+    <item name="uiGuid" value="81" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="104.5" valueDataType="number"/>
+    <item name="y" value="36.9" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="181" valueDataType="number"/>
+    <item name="height" value="41" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="url" value="resource%2FuserAsset%2Fimage%2Fscore_title.png" valueDataType="string"/>
+    <item name="enabled" value="false" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="boolean"/>
+    <item name="collisionData" value="0%2Fn0.00%7C41.00%2C181.00%7C41.00%2C181.00%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C41.00%2C181.00%7C41.00%2C181.00%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="3" valueDataType="number"/>
+  </item>
+  <item UID="75" plugin="AIBitmapText" name="血量" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="1" family="text">
+    <item name="name" value="%E8%A1%80%E9%87%8F" valueDataType="string"/>
+    <item name="uiGuid" value="75" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="438.3350415512465" valueDataType="number"/>
+    <item name="y" value="707.4430747922438" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="102.96398891966749" valueDataType="number"/>
+    <item name="height" value="29.83379501385041" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="bmpUrl" value="resource%2FuserAsset%2Fimage%2Fhp.png" valueDataType="string"/>
+    <item name="fntUrl" value="resource%2FuserAsset%2Fimage%2Fhp.fnt" valueDataType="string"/>
+    <item name="text" value="HP12" valueDataType="string"/>
+    <item name="letterSpacing" value="0" valueDataType="number"/>
+    <item name="lineSpacing" value="0" valueDataType="number"/>
+    <item name="enabled" value="true" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="number"/>
+    <item name="collisionData" value="0%2Fn0.00%7C29.83%2C102.96%7C29.83%2C102.96%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C29.83%2C102.96%7C29.83%2C102.96%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="3" valueDataType="number"/>
+  </item>
+  <item UID="78" plugin="AIBitmapText" name="score" cacheAsBitmap="false" parallaxX="100" parallaxY="100" index="2" family="text">
+    <item name="name" value="score" valueDataType="string"/>
+    <item name="uiGuid" value="78" valueDataType="string"/>
+    <item name="global" value="false" valueDataType="boolean"/>
+    <item name="visible" value="true" valueDataType="boolean"/>
+    <item name="x" value="305.1724376731301" valueDataType="number"/>
+    <item name="y" value="40.90443213296402" valueDataType="number"/>
+    <item name="anchorX" value="0.5" valueDataType="number"/>
+    <item name="anchorY" value="0.5" valueDataType="number"/>
+    <item name="width" value="206.2880886426592" valueDataType="number"/>
+    <item name="height" value="48.50415512465372" valueDataType="number"/>
+    <item name="angle" value="0" valueDataType="number"/>
+    <item name="alpha" value="1" valueDataType="number"/>
+    <item name="bmpUrl" value="resource%2FuserAsset%2Fimage%2Fscore.png" valueDataType="string"/>
+    <item name="fntUrl" value="resource%2FuserAsset%2Fimage%2Fscore.fnt" valueDataType="string"/>
+    <item name="text" value="0" valueDataType="string"/>
+    <item name="letterSpacing" value="0" valueDataType="number"/>
+    <item name="lineSpacing" value="0" valueDataType="number"/>
+    <item name="enabled" value="true" valueDataType="boolean"/>
+    <item name="collision" value="false" valueDataType="number"/>
+    <item name="collisionData" value="0%2Fn0.00%7C48.50%2C206.29%7C48.50%2C206.29%7C0.00%2C0.00%7C0.00" sourceValue="0%2Fn0.00%7C48.50%2C206.29%7C48.50%2C206.29%7C0.00%2C0.00%7C0.00" valueDataType="string"/>
+    <item name="layer" value="3" valueDataType="number"/>
+  </item>
+</layout>

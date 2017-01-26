@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="MainScene" previous="" next="" version="2.2">
+  <item type="instance" UID="10"/>
+  <item type="instance" UID="12"/>
+  <item type="instance" UID="6"/>
+  <item type="variable" variableName="hy" variableType="number" initValue="0"/>
+  <item type="variable" variableName="hx" variableType="number" initValue="0"/>
+  <item type="variable" variableName="ty" variableType="number" initValue="0"/>
+  <item type="variable" variableName="tx" variableType="number" initValue="0"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnButtonBeginEvent" callName="onButtonBegin" isTrigger="true" target="开始游戏"/>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoScene" target="System">
+      <item valueDataType="string" value="%22GameScene%22" name="18"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" persistent="true" callTarget="instance" callName="execTween" target="游戏名称">
+      <item valueDataType="string" value="%22t1%22" name="key"/>
+      <item valueDataType="number" value="255.55" name="x"/>
+      <item valueDataType="number" value="135" name="y"/>
+      <item valueDataType="number" value="" name="anchorX"/>
+      <item valueDataType="number" value="" name="anchorY"/>
+      <item valueDataType="number" value="" name="width"/>
+      <item valueDataType="number" value="" name="height"/>
+      <item valueDataType="number" value="" name="rotation"/>
+      <item valueDataType="number" value="" name="alpha"/>
+      <item valueDataType="number" value="1000" name="duration"/>
+      <item valueDataType="string" value="%22bounceOut%22" name="ease"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="0" name="loop"/>
+      <item valueDataType="number" value="1" name="scaleX"/>
+      <item valueDataType="number" value="1" name="scaleY"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnTweenCompleteEvent" callName="onTweenComplete" isTrigger="true" target="游戏名称">
+      <item valueDataType="string" value="%22t1%22" name="key"/>
+    </item>
+    <item type="action" persistent="true" callTarget="instance" callName="execTween" target="开始游戏">
+      <item valueDataType="string" value="%22tween%22" name="key"/>
+      <item valueDataType="number" value="" name="x"/>
+      <item valueDataType="number" value="" name="y"/>
+      <item valueDataType="number" value="" name="anchorX"/>
+      <item valueDataType="number" value="" name="anchorY"/>
+      <item valueDataType="number" value="177" name="width"/>
+      <item valueDataType="number" value="59" name="height"/>
+      <item valueDataType="number" value="360" name="rotation"/>
+      <item valueDataType="number" value="" name="alpha"/>
+      <item valueDataType="number" value="1000" name="duration"/>
+      <item valueDataType="string" value="%22elasticOut%22" name="ease"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="0" name="loop"/>
+      <item valueDataType="number" value="1" name="scaleX"/>
+      <item valueDataType="number" value="1" name="scaleY"/>
+    </item>
+  </item>
+</eventSheets>
